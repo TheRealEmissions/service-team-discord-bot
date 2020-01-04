@@ -76,5 +76,3 @@ Grab a method from the required methods in the `methods.js` file. These imports 
 head.storage.<file>
 ```
 Grab a storage file from the required files in the `storage.js` file. All information in these files are static.
-
-```

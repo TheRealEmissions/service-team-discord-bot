@@ -3,12 +3,50 @@ const functions = require(`./functions`);
 const methods = require(`./methods`);
 const storage = require(`./storage`);
 const head = {};
+/**
+ * @param {string} m - Message to log
+ */
 head.log = m => {
    console.log(`\x1b[33m%s\x1b[0m`, `[LOG] ${m}`);
 };
-head.post = m => {
-   console.log(m);
+/**
+ * @param {string} m - Message to log
+ * @param {string} [c=null] - Colour to set m to
+ */
+head.post = (m, c = null) => {
+   switch (c) {
+      case "black":
+         console.log(`\x1b[30m%s\x1b[0m`, m);
+         break;
+      case "red":
+         console.log(`\x1b[31m%s\x1b[0m`, m);
+         break;
+      case "green":
+         console.log(`\x1b[32m%s\x1b[0m`, m);
+         break;
+      case "yellow":
+         console.log(`\x1b[33m%s\x1b[0m`, m);
+         break;
+      case "blue":
+         console.log(`\x1b[34m%s\x1b[0m`, m);
+         break;
+      case "magenta":
+         console.log(`\x1b[35m%s\x1b[0m`, m);
+         break;
+      case "cyan":
+         console.log(`\x1b[36m%s\x1b[0m`, m);
+         break;
+      case "white":
+         console.log(`\x1b[37m%s\x1b[0m`, m);
+         break;
+      default:
+         console.log(m);
+         break;
+   }
 };
+/**
+ * @param {string} m - Message to log in error
+ */
 head.error = m => {
    console.error(`\x1b[31m%s\x1b[0m`, `[ERROR] ${m}`);
 };

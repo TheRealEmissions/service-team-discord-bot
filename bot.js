@@ -19,7 +19,7 @@ module.exports = head => {
    const { CommandHandler } = head.modules.djs_commands;
    let cmdHandler = new CommandHandler({
       folder: __dirname + `/commands/`,
-      prefix: ["-"]
+      prefix: [""]
    });
 
    client.commandHandler = cmdHandler;
