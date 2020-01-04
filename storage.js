@@ -1,1 +1,3 @@
-module.exports = {};
+module.exports = {
+   auth: require(`./storage/auth`)
+};

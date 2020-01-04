@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://gitlab.com/Emissions/the-service-team-bot/issues"
   },
-  "homepage": "https://gitlab.com/Emissions/the-service-team-bot#readme"
+  "homepage": "https://gitlab.com/Emissions/the-service-team-bot#readme",
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js",
+    "djs-commands": "^1.2.2",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.8.4",
+    "stable-discord.js": "npm:discord.js@^11.5.1"
+  }
 }
