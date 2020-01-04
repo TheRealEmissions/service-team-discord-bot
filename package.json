@@ -1,0 +1,22 @@
+{
+  "name": "tstb",
+  "version": "1.0.0",
+  "description": "The Service Team Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Emissions/the-service-team-bot.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Emissions#2565, Doug#1337, Ty#1234",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Emissions/the-service-team-bot/issues"
+  },
+  "homepage": "https://gitlab.com/Emissions/the-service-team-bot#readme"
+}
