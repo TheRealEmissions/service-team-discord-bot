@@ -111,6 +111,11 @@ module.exports = head.modules.mongoose.model(
          required: false,
          default: false
       },
+      autogen_url_filter: {
+         type: Boolean,
+         required: false,
+         default: false
+      },
       freelancer_strike_notifications: {
          type: Boolean,
          required: false,

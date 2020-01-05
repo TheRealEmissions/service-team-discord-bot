@@ -75,6 +75,11 @@ module.exports = head.modules.mongoose.model(
          type: Boolean,
          required: false,
          default: false
+      },
+      transcripts_online: {
+         type: Boolean,
+         required: false,
+         default: true
       }
    })
 );
