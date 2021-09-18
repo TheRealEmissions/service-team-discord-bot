@@ -2,3 +2,4 @@
 *.jar
 *.zip
 node_modules/
+storage/auth.js
